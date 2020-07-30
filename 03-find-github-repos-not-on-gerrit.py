@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# Find github repos that don't have corresponding gerrit repos
 import os
 import multiprocessing
 
@@ -15,10 +15,6 @@ GITHUB_UNIQUES = 'github-repos-not-on-gerrit-{}'.format(DATE)
 
 def trim_beg(haystack, needle):
     return haystack[len(needle):]
-
-
-def trim_end(haystack, needle):
-    return haystack[:-(len(needle))]
 
 
 def gerrit_to_github(reponame):
