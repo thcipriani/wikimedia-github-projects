@@ -11,7 +11,6 @@ from datetime import datetime, timezone
 
 
 DATE = datetime.now(tz=timezone.utc).strftime('%Y-%m-%d')
-DATE = '2020-07-29'
 GITHUB_REPOS = 'active-github-repos-{}'.format(DATE)
 FINAL_FILE = 'README'
 
