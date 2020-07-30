@@ -41,10 +41,12 @@ if __name__ == '__main__':
 
     with open(GERRIT_REPOS) as f:
         gerrit_repos = {}
-        gerrit_repos = set([gerrit_to_github(x.strip()) for x in f.readlines()])
+        gerrit_repos = [gerrit_to_github(x.strip()) for x in f.readlines()]
 
     with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
-        pool.map(canonical, gerrit_repos)
+        gerrit_repos = pool.map(canonical, gerrit_repos)
+
+    gerrit_repos = set(gerrit_repos)
 
     with open(GITHUB_UNIQUES, 'w') as f:
         f.write('\n'.join(github_repos - gerrit_repos))
