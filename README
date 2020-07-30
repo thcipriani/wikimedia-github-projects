@@ -1,3 +1,8 @@
+README for wikimedia-github-repos
+=================================
+This is a list of all repositories that are actively developed on the
+wikimedia github account[0].
+
 wikimedia/AFNetworking
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -52,6 +57,7 @@ wikimedia/htmldumper
 wikimedia/hyperswitch
 wikimedia/ifttt
 wikimedia/incubator-superset
+wikimedia/java-mwapi
 wikimedia/jquery-badge
 wikimedia/jquery.i18n
 wikimedia/jquery.ime
@@ -109,7 +115,6 @@ wikimedia/restbase-mod-table-cassandra
 wikimedia/restbase-mod-table-mysql
 wikimedia/restbase-mod-table-spec
 wikimedia/restbase-mod-table-sqlite
-wikimedia/restevent
 wikimedia/revscoring
 wikimedia/routeswitch
 wikimedia/service-runner
@@ -146,3 +151,5 @@ wikimedia/wikitax
 wikimedia/wmfdata-python
 wikimedia/wpvip-wikimedia-techblog
 wikimedia/wvui
+
+[0]: <https://github.com/wikimedia/>
