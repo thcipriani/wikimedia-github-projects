@@ -14,6 +14,17 @@ DATE = datetime.now(tz=timezone.utc).strftime('%Y-%m-%d')
 GITHUB_REPOS = 'active-github-repos-{}'.format(DATE)
 FINAL_FILE = 'README'
 
+PRE = [
+    'README for wikimedia-github-repos'
+    '================================='
+    'This is a list of all repositories that are actively developed on the '
+    'wikimedia github account[0].'
+]
+
+POST = [
+    '[0]: <https://github.com/wikimedia/>'
+]
+
 
 def flatten_for_post(h, result=None, kk=None):
     """
@@ -149,7 +160,9 @@ def main():
     p.find_uris(github_mirrors)
 
     with open(FINAL_FILE, 'w') as f:
+        f.write('\n'.join(PRE))
         f.write('\n'.join(sorted(github_mirrors | github_repos)))
+        f.write('\n'.join(POST))
 
 
 if __name__ == '__main__':
