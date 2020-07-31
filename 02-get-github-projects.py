@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Find all github repos for the wikimedia account
+# Find all active github repos for the wikimedia account
 import re
 import requests
 import sys
@@ -17,7 +17,7 @@ with open(file_name, 'w') as f:
     while url:
         r = requests.get(url, auth=())
         r.raise_for_status()
-        f.write('\n'.join([x['full_name'] for x in r.json()]))
+        f.write('\n'.join([x['full_name'] for x in r.json() if x['archived'] == False]))
         f.write('\n')
 
         links = r.headers['link'].split(',')

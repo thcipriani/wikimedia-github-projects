@@ -1,5 +1,5 @@
 .PHONY: clean
-DATE=$(shell date -I)
+DATE=$(shell date -I --utc)
 
 README: active-github-repos-$(DATE)
 	python3 05-add-github-repos-mirrored-to-gerrit.py
