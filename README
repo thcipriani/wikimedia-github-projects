@@ -28,6 +28,7 @@ wikimedia/dumpgrepper
 wikimedia/editquality
 wikimedia/edittypes
 wikimedia/eslint-config-wikimedia
+wikimedia/eslint-docgen
 wikimedia/eslint-plugin-mediawiki
 wikimedia/eslint-plugin-no-jquery
 wikimedia/eventgate
@@ -94,6 +95,5 @@ wikimedia/wikipedia-kaios
 wikimedia/wikipedia-preview
 wikimedia/wikitax
 wikimedia/wmfdata-python
-wikimedia/wpvip-wikimedia-techblog
 wikimedia/wvui
 [0]: <https://github.com/wikimedia/>
