@@ -10,6 +10,40 @@ from datetime import datetime,timezone
 pattern = re.compile(r'<(.*)>')
 
 
+def active_fork(repo):
+    """
+    TODO: forks are hard...
+    """
+    r = requests.get(repo['url'], auth=())
+    r.raise_for_status()
+    full_repo = r.json()
+
+    # Parent repo is archived
+    parent_inactive = full_repo['parent']['archived'] == True
+
+    # Fork is more up-to-date than the parent
+    fork_updated = full_repo['updated_at']
+    parent_updated = full_repo['parent']['updated_at']
+
+    fork_more_active = fork_updated > parent_updated
+
+    return parent_inactive or fork_more_active
+
+
+def valid_repo(repo):
+    """
+    Filter out repos that are archived or forks.
+    """
+    if repo['archived']:
+        return False
+
+    if repo['fork']:
+        return active_fork(repo)
+
+    # It's not archived, it's not a fork, it's a valid repo
+    return True
+
+
 url = 'https://api.github.com/users/wikimedia/repos'
 repos = []
 file_name = 'github-repos-{}'.format(datetime.now(tz=timezone.utc).strftime('%Y-%m-%d'))
@@ -17,7 +51,7 @@ with open(file_name, 'w') as f:
     while url:
         r = requests.get(url, auth=())
         r.raise_for_status()
-        f.write('\n'.join([x['full_name'] for x in r.json() if x['archived'] == False]))
+        f.write('\n'.join([x['full_name'] for x in r.json() if valid_repo(x)]))
         f.write('\n')
 
         links = r.headers['link'].split(',')

@@ -19,6 +19,9 @@ PRE = [
     '=================================',
     'This is a list of all repositories that are actively developed on the',
     'wikimedia github account[0].',
+    '',
+    'Last updated: {}',
+    'Active GitHub Repos: {}',
 ]
 
 POST = [
@@ -159,11 +162,13 @@ def main():
     p = Phab()
     p.find_uris(github_mirrors)
 
+    final_repos = sorted(github_mirrors | github_repos)
+
     with open(FINAL_FILE, 'w') as f:
-        f.write('\n'.join(PRE))
-        f.write('\n')
-        f.write('\n'.join(sorted(github_mirrors | github_repos)))
-        f.write('\n')
+        f.write('\n'.join(PRE).format(DATE, len(final_repos)))
+        f.write('\n\n')
+        f.write('\n'.join(final_repos))
+        f.write('\n\n')
         f.write('\n'.join(POST))
 
 
