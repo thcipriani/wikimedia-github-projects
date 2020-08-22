@@ -2,18 +2,19 @@ README for wikimedia-github-repos
 =================================
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
+
+Last updated: 2020-08-22
+Active GitHub Repos: 91
+
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
-wikimedia/Cyberbot_II
 wikimedia/DeadlinkChecker
 wikimedia/InteractionTimeline
 wikimedia/KafkaSSE
-wikimedia/NYTPhotoViewer
 wikimedia/ToolforgeBundle
 wikimedia/WhoWroteThat
 wikimedia/WikiContrib
 wikimedia/WikidataQueryServiceR
-wikimedia/WikimediaDebug
 wikimedia/WikimediaUI-Style-Guide
 wikimedia/articlequality
 wikimedia/banana-checker
@@ -39,7 +40,6 @@ wikimedia/hdfs-tools
 wikimedia/html-metadata
 wikimedia/htmldumper
 wikimedia/hyperswitch
-wikimedia/incubator-superset
 wikimedia/jquery.i18n
 wikimedia/jquery.ime
 wikimedia/jquery.uls
@@ -66,6 +66,7 @@ wikimedia/phoenix
 wikimedia/pi-playbook
 wikimedia/popularpages
 wikimedia/preq
+wikimedia/research-api-endpoint-template
 wikimedia/resource-modules
 wikimedia/restbase
 wikimedia/restbase-mod-table-cassandra
@@ -96,4 +97,5 @@ wikimedia/wikipedia-preview
 wikimedia/wikitax
 wikimedia/wmfdata-python
 wikimedia/wvui
+
 [0]: <https://github.com/wikimedia/>
