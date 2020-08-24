@@ -18,10 +18,20 @@ def trim_beg(haystack, needle):
 
 
 def gerrit_to_github(reponame):
+    """
+    Convert gerrit name to github name
+    e.g., wikimedia/mediawiki/core -> wikimedia/mediawiki-core
+    """
     return os.path.join('wikimedia', reponame.strip().replace('/', '-'))
 
 
 def canonical(reponame):
+    """
+    Make HEAD request to github
+
+    if the status is 301, return the canonical redirect, otherwise, return the
+    repo name
+    """
     github_repo = GITHUB_URL + reponame
     r = requests.head(github_repo)
     print('checking "{}" - {}'.format(github_repo, r.status_code))
@@ -45,4 +55,6 @@ if __name__ == '__main__':
     gerrit_repos = set(gerrit_repos)
 
     with open(GITHUB_UNIQUES, 'w') as f:
+        # remove the set of gerrit repos from the set of github repos, leaving
+        # only those repos that are exclusive to github
         f.write('\n'.join(github_repos - gerrit_repos))

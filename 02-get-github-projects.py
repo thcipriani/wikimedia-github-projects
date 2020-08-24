@@ -37,8 +37,8 @@ def valid_repo(repo):
     if repo['archived']:
         return False
 
-    if repo['fork']:
-        return active_fork(repo)
+    # if repo['fork']:
+    #     return active_fork(repo)
 
     # It's not archived, it's not a fork, it's a valid repo
     return True

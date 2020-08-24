@@ -13,8 +13,11 @@ github-repos-$(DATE):
 github-repos-not-on-gerrit-$(DATE): gerrit-repos-$(DATE) github-repos-$(DATE)
 	python3 03-find-github-repos-not-on-gerrit.py
 
+# active-github-repos-$(DATE): github-repos-not-on-gerrit-$(DATE)
+# 	bash 04-commit-message-has-changeid.sh
+
 active-github-repos-$(DATE): github-repos-not-on-gerrit-$(DATE)
-	bash 04-commit-message-has-changeid.sh
+	sort github-repos-not-on-gerrit-$(DATE) > active-github-repos-$(DATE)
 
 clean:
-	rm README
+	rm README *-$(DATE)
