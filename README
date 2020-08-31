@@ -3,8 +3,8 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-08-27
-Active GitHub Repos: 219
+Last updated: 2020-08-31
+Active GitHub Repos: 157
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -32,8 +32,8 @@ wikimedia/community-tech-tools
 wikimedia/composer-merge-plugin
 wikimedia/content-type
 wikimedia/dClass
-wikimedia/data-warehouse
 wikimedia/database-reports
+wikimedia/diff-blog
 wikimedia/docker-library-images
 wikimedia/draftquality
 wikimedia/drafttopic
@@ -49,7 +49,6 @@ wikimedia/eslint-plugin-no-jquery
 wikimedia/eventgate
 wikimedia/eventmetrics
 wikimedia/fosdem20webperf
-wikimedia/git-client-plugin
 wikimedia/git-fat
 wikimedia/grunt-stylelint
 wikimedia/grunt-tyops
@@ -77,57 +76,6 @@ wikimedia/limitation
 wikimedia/logstash-report
 wikimedia/mediawiki-api-demos
 wikimedia/mediawiki-docker
-wikimedia/mediawiki-extensions-AddMetaAndTitle
-wikimedia/mediawiki-extensions-AmazonLookup
-wikimedia/mediawiki-extensions-CategoryMagicWords
-wikimedia/mediawiki-extensions-Censor
-wikimedia/mediawiki-extensions-CloudSearch
-wikimedia/mediawiki-extensions-ContextComments
-wikimedia/mediawiki-extensions-CustomMagic
-wikimedia/mediawiki-extensions-DebianISOCodes
-wikimedia/mediawiki-extensions-EImage
-wikimedia/mediawiki-extensions-ELearnware
-wikimedia/mediawiki-extensions-ExtensionStatus
-wikimedia/mediawiki-extensions-FlashPlayer
-wikimedia/mediawiki-extensions-GoogleTagManager
-wikimedia/mediawiki-extensions-HaloTripleStoreConnector
-wikimedia/mediawiki-extensions-HotCat
-wikimedia/mediawiki-extensions-ImportBibliography
-wikimedia/mediawiki-extensions-InterwikiExistence
-wikimedia/mediawiki-extensions-Ipernity
-wikimedia/mediawiki-extensions-Isbn
-wikimedia/mediawiki-extensions-LightboxGallery
-wikimedia/mediawiki-extensions-ListTransclusions
-wikimedia/mediawiki-extensions-MailChimpSubscription
-wikimedia/mediawiki-extensions-MetaDescriptionTag
-wikimedia/mediawiki-extensions-MirrorTools
-wikimedia/mediawiki-extensions-MobileSections
-wikimedia/mediawiki-extensions-MultiAudioVideo
-wikimedia/mediawiki-extensions-NoUnwrap
-wikimedia/mediawiki-extensions-PDBHandler
-wikimedia/mediawiki-extensions-PageCredits
-wikimedia/mediawiki-extensions-PlaceNewSection
-wikimedia/mediawiki-extensions-PrefixExport
-wikimedia/mediawiki-extensions-ProtectedTitles
-wikimedia/mediawiki-extensions-PubSubHubbubSubscriber
-wikimedia/mediawiki-extensions-PurposeCentricSearch
-wikimedia/mediawiki-extensions-QueryResult
-wikimedia/mediawiki-extensions-RealNames
-wikimedia/mediawiki-extensions-SMWHalo
-wikimedia/mediawiki-extensions-SOLRSearch
-wikimedia/mediawiki-extensions-ShareThisWidget
-wikimedia/mediawiki-extensions-ShrinkTheWeb
-wikimedia/mediawiki-extensions-SignupAPI
-wikimedia/mediawiki-extensions-SimpleSamlAuth
-wikimedia/mediawiki-extensions-StoryParagraph
-wikimedia/mediawiki-extensions-SubpageWatchlist
-wikimedia/mediawiki-extensions-SwedishCollation
-wikimedia/mediawiki-extensions-VersionView
-wikimedia/mediawiki-extensions-VisualWiki
-wikimedia/mediawiki-extensions-WhatsNearby
-wikimedia/mediawiki-extensions-WhichImageIsBetter
-wikimedia/mediawiki-extensions-WikiCortex
-wikimedia/mediawiki-extensions-WikiFarm
 wikimedia/mediawiki-services-push-notification
 wikimedia/mediawiki-services-service-runner
 wikimedia/mediawiki-services-service-template-node
@@ -153,14 +101,9 @@ wikimedia/pi-playbook
 wikimedia/popularpages
 wikimedia/preq
 wikimedia/puppet-storm
-wikimedia/pywikiapi
-wikimedia/pywikibot-bots-catbot
-wikimedia/pywikibot-bots-misc
-wikimedia/pywikibot-bots-mjbmrbot
 wikimedia/pywikibot-externals-six
 wikimedia/recommendation-missing-sections
 wikimedia/recommendation-translation-test
-wikimedia/rescue-pxe
 wikimedia/research-api-endpoint-template
 wikimedia/research-api-interface-template
 wikimedia/research-babel-parser
@@ -197,7 +140,6 @@ wikimedia/tool-keystone-browser
 wikimedia/tool-my-first-flask-oauth-tool
 wikimedia/tools-globalsearch
 wikimedia/twcs
-wikimedia/uxprototypes
 wikimedia/video.js
 wikimedia/waxer
 wikimedia/webextension-readinglists
@@ -207,11 +149,8 @@ wikimedia/wikidiff2-docker
 wikimedia/wikilabels
 wikimedia/wikilabels-wmflabs-deploy
 wikimedia/wikimedia-android-data-client
-wikimedia/wikimedia-fundraising-dashboard
 wikimedia/wikimedia-logo
 wikimedia/wikimedia-page-library
-wikimedia/wikimedia-thumbor-page
-wikimedia/wikimedia-thumbor-proxy-loader
 wikimedia/wikimedia.github.io
 wikimedia/wikimediafoundation-org
 wikimedia/wikipedia-android-lite
@@ -224,6 +163,5 @@ wikimedia/wikipedia-preview
 wikimedia/wikitax
 wikimedia/wmfdata-python
 wikimedia/wvui
-wikimedia/zotero
 
 [0]: <https://github.com/wikimedia/>
