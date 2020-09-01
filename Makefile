@@ -1,8 +1,8 @@
 .PHONY: clean
 DATE=$(shell date -I --utc)
 
-README: active-github-repos-$(DATE)
-	python3 05-add-github-repos-mirrored-to-gerrit.py
+README: acive-github-repos-with-mirrored-$(DATE)
+	python3 06-remove-mirrored-diffusion-to-github.py
 
 gerrit-repos-$(DATE):
 	bash 01-get-gerrit-projects.sh
@@ -18,6 +18,9 @@ github-repos-not-on-gerrit-$(DATE): gerrit-repos-$(DATE) github-repos-$(DATE)
 
 active-github-repos-$(DATE): github-repos-not-on-gerrit-$(DATE)
 	sort github-repos-not-on-gerrit-$(DATE) > active-github-repos-$(DATE)
+
+acive-github-repos-with-mirrored-$(DATE): active-github-repos-$(DATE)
+	python3 05-add-github-repos-mirrored-to-gerrit.py
 
 clean:
 	rm README *-$(DATE)

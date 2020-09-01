@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Add in any repos that phabricator is *observing* on github and *mirroring* to
-# gerrit
+# removes any repos that are developed primarily on phabricator and mirrored to
+# github
 
 import json
 import os
@@ -11,8 +11,29 @@ from datetime import datetime, timezone
 
 
 DATE = datetime.now(tz=timezone.utc).strftime('%Y-%m-%d')
-GITHUB_REPOS = 'active-github-repos-{}'.format(DATE)
-OUTPUT = 'active-github-repos-with-mirrored-{}'.format(DATE)
+GITHUB_REPOS = 'active-github-repos-with-mirrored-{}'.format(DATE)
+FINAL_FILE = 'README'
+
+PRE = [
+    'README for wikimedia-github-repos',
+    '=================================',
+    'This is a list of all repositories that are actively developed on the',
+    'wikimedia github account[0].',
+    '',
+    'Last updated: {}',
+    'Active GitHub Repos: {}',
+]
+
+POST = [
+    '[0]: <https://github.com/wikimedia/>',
+]
+
+
+def clean_github_name(repo):
+    repo = repo[len('https://github.com/'):]
+    if repo.endswith('.git'):
+        repo = repo[:-len('.git')]
+    return repo
 
 
 def flatten_for_post(h, result=None, kk=None):
@@ -79,7 +100,7 @@ class Phab(object):
         Get a set of authors from a list of commit sha1s
         """
         data = {
-                "queryKey": "all",
+                "queryKey": "active",
                 "attachments": {
                     'uris': '1',
                 },
@@ -99,23 +120,25 @@ class Phab(object):
             return ret
 
         for repo in results['data']:
-            observe_github = False
-            mirror_gerrit = False
+            observe = False
+            mirror_github = False
 
             for uri in repo['attachments']['uris']['uris']:
                 # Looking only for uris that are pointing to gerrit
                 # that are also of io type "observe"
+                if uri['fields']['disabled']:
+                    continue
                 phid = uri['id']
                 name = uri['fields']['uri']['raw']
                 io  = uri['fields']['io']['raw']
-                if 'https://github.com/wikimedia' in name and io == 'observe':
-                    observe_github = True
+                if name.startswith('https://github.com/wikimedia') and io == 'mirror':
+                    mirror_github = True
                     github_name = name
-                if 'gerrit.wikimedia.org' in name and io == 'mirror':
-                    mirror_gerrit = True
+                if io == 'observe':
+                    observe = True
 
-            if observe_github and mirror_gerrit:
-                repo_github_name = github_name[len('https://github.com/'):]
+            if not observe and mirror_github:
+                repo_github_name = clean_github_name(github_name)
                 print(repo_github_name)
                 ret.add(repo_github_name)
 
@@ -148,10 +171,15 @@ def main():
     p = Phab()
     p.find_uris(github_mirrors)
 
-    final_repos = sorted(github_repos | github_mirrors)
+    final_repos = sorted(github_repos - github_mirrors)
 
-    with open(OUTPUT, 'w') as f:
+    with open(FINAL_FILE, 'w') as f:
+        f.write('\n'.join(PRE).format(DATE, len(final_repos)))
+        f.write('\n\n')
         f.write('\n'.join(final_repos))
+        f.write('\n\n')
+        f.write('\n'.join(POST))
+
 
 if __name__ == '__main__':
     main()
