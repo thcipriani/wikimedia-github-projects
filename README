@@ -3,8 +3,8 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-08-31
-Active GitHub Repos: 157
+Last updated: 2020-09-01
+Active GitHub Repos: 152
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -21,6 +21,7 @@ wikimedia/WhoWroteThat
 wikimedia/WikiContrib
 wikimedia/WikidataQueryServiceR
 wikimedia/WikimediaUI-Style-Guide
+wikimedia/apiclient-wiki
 wikimedia/articlequality
 wikimedia/banana-checker
 wikimedia/banana-i18n
@@ -76,7 +77,6 @@ wikimedia/limitation
 wikimedia/logstash-report
 wikimedia/mediawiki-api-demos
 wikimedia/mediawiki-docker
-wikimedia/mediawiki-services-push-notification
 wikimedia/mediawiki-services-service-runner
 wikimedia/mediawiki-services-service-template-node
 wikimedia/mediawiki-title
@@ -95,7 +95,6 @@ wikimedia/ores-wmflabs-deploy
 wikimedia/ores_bias_project
 wikimedia/parsoid-jsapi
 wikimedia/pcs-html-converter
-wikimedia/phabricator-translations
 wikimedia/phoenix
 wikimedia/pi-playbook
 wikimedia/popularpages
@@ -135,9 +134,6 @@ wikimedia/svgtranslate
 wikimedia/swagger-router
 wikimedia/takedown-tools
 wikimedia/thank-you-note
-wikimedia/tool-gridengine-status
-wikimedia/tool-keystone-browser
-wikimedia/tool-my-first-flask-oauth-tool
 wikimedia/tools-globalsearch
 wikimedia/twcs
 wikimedia/video.js
@@ -150,7 +146,6 @@ wikimedia/wikilabels
 wikimedia/wikilabels-wmflabs-deploy
 wikimedia/wikimedia-android-data-client
 wikimedia/wikimedia-logo
-wikimedia/wikimedia-page-library
 wikimedia/wikimedia.github.io
 wikimedia/wikimediafoundation-org
 wikimedia/wikipedia-android-lite
