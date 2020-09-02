@@ -3,8 +3,8 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-09-01
-Active GitHub Repos: 152
+Last updated: 2020-09-02
+Active GitHub Repos: 151
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -157,6 +157,5 @@ wikimedia/wikipedia-kaios
 wikimedia/wikipedia-preview
 wikimedia/wikitax
 wikimedia/wmfdata-python
-wikimedia/wvui
 
 [0]: <https://github.com/wikimedia/>
