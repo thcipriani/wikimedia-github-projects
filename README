@@ -3,12 +3,11 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-09-02
+Last updated: 2020-10-08
 Active GitHub Repos: 151
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
-wikimedia/Cyberbot_II
 wikimedia/DeadlinkChecker
 wikimedia/InteractionTimeline
 wikimedia/KafkaSSE
@@ -22,6 +21,7 @@ wikimedia/WikiContrib
 wikimedia/WikidataQueryServiceR
 wikimedia/WikimediaUI-Style-Guide
 wikimedia/apiclient-wiki
+wikimedia/apigateway-rate-limit-tests
 wikimedia/articlequality
 wikimedia/banana-checker
 wikimedia/banana-i18n
@@ -29,7 +29,6 @@ wikimedia/bunyan-syslog-udp
 wikimedia/cassandra
 wikimedia/change-propagation
 wikimedia/commtech-musikbot
-wikimedia/community-tech-tools
 wikimedia/composer-merge-plugin
 wikimedia/content-type
 wikimedia/dClass
@@ -82,6 +81,7 @@ wikimedia/mediawiki-services-service-template-node
 wikimedia/mediawiki-title
 wikimedia/mediawiki-types
 wikimedia/mw-node-qunit
+wikimedia/node-apn
 wikimedia/node-htcp-purge
 wikimedia/node-repo-template
 wikimedia/oauth2-server
