@@ -3,8 +3,8 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-10-08
-Active GitHub Repos: 151
+Last updated: 2020-12-03
+Active GitHub Repos: 153
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -49,6 +49,7 @@ wikimedia/eslint-plugin-no-jquery
 wikimedia/eventgate
 wikimedia/eventmetrics
 wikimedia/fosdem20webperf
+wikimedia/fosdem21-web-performance-cfp
 wikimedia/git-fat
 wikimedia/grunt-stylelint
 wikimedia/grunt-tyops
@@ -84,6 +85,7 @@ wikimedia/mw-node-qunit
 wikimedia/node-apn
 wikimedia/node-htcp-purge
 wikimedia/node-repo-template
+wikimedia/node-url-get
 wikimedia/oauth2-server
 wikimedia/ocean
 wikimedia/operations-debs-contenttranslation-apertium-af-nk
@@ -110,6 +112,7 @@ wikimedia/research-gapfinder-analytics
 wikimedia/research-gapfinder-gadget
 wikimedia/research-navigation-vectors
 wikimedia/research-reader-survey-analysis
+wikimedia/research-similar-users
 wikimedia/research-translation-recommendation-models
 wikimedia/research-translation-recommendation-predictions
 wikimedia/research-wmf-utils
@@ -138,7 +141,6 @@ wikimedia/tools-globalsearch
 wikimedia/twcs
 wikimedia/video.js
 wikimedia/waxer
-wikimedia/webextension-readinglists
 wikimedia/webpagetest
 wikimedia/wikibase-changes
 wikimedia/wikidiff2-docker
