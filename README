@@ -3,8 +3,8 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2020-12-03
-Active GitHub Repos: 153
+Last updated: 2021-06-08
+Active GitHub Repos: 169
 
 wikimedia/CommonsNotifier
 wikimedia/CopyPatrol
@@ -20,11 +20,15 @@ wikimedia/WhoWroteThat
 wikimedia/WikiContrib
 wikimedia/WikidataQueryServiceR
 wikimedia/WikimediaUI-Style-Guide
+wikimedia/abstract-wiki-schemata-generator
+wikimedia/abstract-wikipedia-data-science
 wikimedia/apiclient-wiki
 wikimedia/apigateway-rate-limit-tests
+wikimedia/apps-android-wikipedia-imagerecs
 wikimedia/articlequality
 wikimedia/banana-checker
 wikimedia/banana-i18n
+wikimedia/browserslist-config-wikimedia
 wikimedia/bunyan-syslog-udp
 wikimedia/cassandra
 wikimedia/change-propagation
@@ -58,16 +62,20 @@ wikimedia/html-metadata
 wikimedia/htmldumper
 wikimedia/hyperswitch
 wikimedia/incubator-superset
+wikimedia/interconnection-wordpress-theme
 wikimedia/java-morelangs
 wikimedia/jmx_exporter
 wikimedia/jquery.i18n
 wikimedia/jquery.ime
 wikimedia/jquery.uls
 wikimedia/jquery.webfonts
+wikimedia/json-schema
 wikimedia/json-stable-stringify
 wikimedia/jsonschema-compatibility
 wikimedia/jsonschema-tools
 wikimedia/kad
+wikimedia/kartodock
+wikimedia/kartotherian-tilelive-switch
 wikimedia/kraken-puppet
 wikimedia/labs-tools-editorinteract
 wikimedia/language-data
@@ -75,6 +83,7 @@ wikimedia/less-plugin-clean-css
 wikimedia/less.php
 wikimedia/limitation
 wikimedia/logstash-report
+wikimedia/maps-config
 wikimedia/mediawiki-api-demos
 wikimedia/mediawiki-docker
 wikimedia/mediawiki-services-service-runner
@@ -82,6 +91,7 @@ wikimedia/mediawiki-services-service-template-node
 wikimedia/mediawiki-title
 wikimedia/mediawiki-types
 wikimedia/mw-node-qunit
+wikimedia/nlwiki_articlequality
 wikimedia/node-apn
 wikimedia/node-htcp-purge
 wikimedia/node-repo-template
@@ -95,12 +105,16 @@ wikimedia/ores
 wikimedia/ores-support-checklist
 wikimedia/ores-wmflabs-deploy
 wikimedia/ores_bias_project
+wikimedia/osm-bright.tm2
+wikimedia/osm-bright.tm2source
 wikimedia/parsoid-jsapi
 wikimedia/pcs-html-converter
 wikimedia/phoenix
 wikimedia/pi-playbook
+wikimedia/poppy-cli
 wikimedia/popularpages
 wikimedia/preq
+wikimedia/pretty-json
 wikimedia/puppet-storm
 wikimedia/pywikibot-externals-six
 wikimedia/recommendation-missing-sections
@@ -108,6 +122,7 @@ wikimedia/recommendation-translation-test
 wikimedia/research-api-endpoint-template
 wikimedia/research-api-interface-template
 wikimedia/research-babel-parser
+wikimedia/research-datasets
 wikimedia/research-gapfinder-analytics
 wikimedia/research-gapfinder-gadget
 wikimedia/research-navigation-vectors
@@ -130,8 +145,6 @@ wikimedia/simplei18n
 wikimedia/skinomatic
 wikimedia/sqoopy
 wikimedia/stylelint-config-wikimedia
-wikimedia/subversion
-wikimedia/subversion-svn.wikimedia.org
 wikimedia/subversion-svn.wikimedia.org-trunk
 wikimedia/svgtranslate
 wikimedia/swagger-router
@@ -139,7 +152,7 @@ wikimedia/takedown-tools
 wikimedia/thank-you-note
 wikimedia/tools-globalsearch
 wikimedia/twcs
-wikimedia/video.js
+wikimedia/typescript-types
 wikimedia/waxer
 wikimedia/webpagetest
 wikimedia/wikibase-changes
@@ -148,6 +161,7 @@ wikimedia/wikilabels
 wikimedia/wikilabels-wmflabs-deploy
 wikimedia/wikimedia-android-data-client
 wikimedia/wikimedia-logo
+wikimedia/wikimedia-ocr
 wikimedia/wikimedia.github.io
 wikimedia/wikimediafoundation-org
 wikimedia/wikipedia-android-lite
@@ -157,7 +171,9 @@ wikimedia/wikipedia-ios-lite
 wikimedia/wikipedia-ios-liter
 wikimedia/wikipedia-kaios
 wikimedia/wikipedia-preview
+wikimedia/wikipediapreview-wordpress
 wikimedia/wikitax
 wikimedia/wmfdata-python
+wikimedia/ws-export
 
 [0]: <https://github.com/wikimedia/>
