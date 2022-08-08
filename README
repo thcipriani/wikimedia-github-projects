@@ -3,186 +3,194 @@ README for wikimedia-github-repos
 This is a list of all repositories that are actively developed on the
 wikimedia github account[0].
 
-Last updated: 2022-03-23
-Active GitHub Repos: 178
+Last updated: 2022-08-08
+Active GitHub Repos: 186
 
-* [https://github.com/wikimedia/CommonsNotifier wikimedia/CommonsNotifier]
-* [https://github.com/wikimedia/CopyPatrol wikimedia/CopyPatrol]
-* [https://github.com/wikimedia/DeadlinkChecker wikimedia/DeadlinkChecker]
-* [https://github.com/wikimedia/InteractionTimeline wikimedia/InteractionTimeline]
-* [https://github.com/wikimedia/KafkaSSE wikimedia/KafkaSSE]
-* [https://github.com/wikimedia/Leaflet.Sleep wikimedia/Leaflet.Sleep]
-* [https://github.com/wikimedia/NYTPhotoViewer wikimedia/NYTPhotoViewer]
-* [https://github.com/wikimedia/OKAPI wikimedia/OKAPI]
-* [https://github.com/wikimedia/SurveyCop wikimedia/SurveyCop]
-* [https://github.com/wikimedia/ToolforgeBundle wikimedia/ToolforgeBundle]
-* [https://github.com/wikimedia/WhoWroteThat wikimedia/WhoWroteThat]
-* [https://github.com/wikimedia/WikiContrib wikimedia/WikiContrib]
-* [https://github.com/wikimedia/WikidataQueryServiceR wikimedia/WikidataQueryServiceR]
-* [https://github.com/wikimedia/WikimediaUI-Style-Guide wikimedia/WikimediaUI-Style-Guide]
-* [https://github.com/wikimedia/abstract-wiki-schemata-generator wikimedia/abstract-wiki-schemata-generator]
-* [https://github.com/wikimedia/abstract-wikipedia-data-science wikimedia/abstract-wikipedia-data-science]
-* [https://github.com/wikimedia/apiclient-wiki wikimedia/apiclient-wiki]
-* [https://github.com/wikimedia/apigateway-rate-limit-tests wikimedia/apigateway-rate-limit-tests]
-* [https://github.com/wikimedia/apps-android-wikipedia-imagerecs wikimedia/apps-android-wikipedia-imagerecs]
-* [https://github.com/wikimedia/articlequality wikimedia/articlequality]
-* [https://github.com/wikimedia/banana-checker wikimedia/banana-checker]
-* [https://github.com/wikimedia/banana-i18n wikimedia/banana-i18n]
-* [https://github.com/wikimedia/browserslist-config-wikimedia wikimedia/browserslist-config-wikimedia]
-* [https://github.com/wikimedia/bunyan-syslog-udp wikimedia/bunyan-syslog-udp]
-* [https://github.com/wikimedia/cassandra wikimedia/cassandra]
-* [https://github.com/wikimedia/cfssl wikimedia/cfssl]
-* [https://github.com/wikimedia/commtech-musikbot wikimedia/commtech-musikbot]
-* [https://github.com/wikimedia/composer-merge-plugin wikimedia/composer-merge-plugin]
-* [https://github.com/wikimedia/content-type wikimedia/content-type]
-* [https://github.com/wikimedia/dClass wikimedia/dClass]
-* [https://github.com/wikimedia/database-reports wikimedia/database-reports]
-* [https://github.com/wikimedia/diff-blog wikimedia/diff-blog]
-* [https://github.com/wikimedia/docker-library-images wikimedia/docker-library-images]
-* [https://github.com/wikimedia/doxygen wikimedia/doxygen]
-* [https://github.com/wikimedia/draftquality wikimedia/draftquality]
-* [https://github.com/wikimedia/drafttopic wikimedia/drafttopic]
-* [https://github.com/wikimedia/dump-scheduler-eval wikimedia/dump-scheduler-eval]
-* [https://github.com/wikimedia/dumpgrepper wikimedia/dumpgrepper]
-* [https://github.com/wikimedia/editquality wikimedia/editquality]
-* [https://github.com/wikimedia/edittypes wikimedia/edittypes]
-* [https://github.com/wikimedia/edx-platform wikimedia/edx-platform]
-* [https://github.com/wikimedia/envoy wikimedia/envoy]
-* [https://github.com/wikimedia/eslint-config-wikimedia wikimedia/eslint-config-wikimedia]
-* [https://github.com/wikimedia/eslint-docgen wikimedia/eslint-docgen]
-* [https://github.com/wikimedia/eslint-plugin-mediawiki wikimedia/eslint-plugin-mediawiki]
-* [https://github.com/wikimedia/eslint-plugin-no-jquery wikimedia/eslint-plugin-no-jquery]
-* [https://github.com/wikimedia/eventgate wikimedia/eventgate]
-* [https://github.com/wikimedia/eventmetrics wikimedia/eventmetrics]
-* [https://github.com/wikimedia/eveskin wikimedia/eveskin]
-* [https://github.com/wikimedia/fosdem20webperf wikimedia/fosdem20webperf]
-* [https://github.com/wikimedia/fosdem21-web-performance-cfp wikimedia/fosdem21-web-performance-cfp]
-* [https://github.com/wikimedia/git-fat wikimedia/git-fat]
-* [https://github.com/wikimedia/grunt-stylelint wikimedia/grunt-stylelint]
-* [https://github.com/wikimedia/grunt-tyops wikimedia/grunt-tyops]
-* [https://github.com/wikimedia/hdfs-tools wikimedia/hdfs-tools]
-* [https://github.com/wikimedia/html-metadata wikimedia/html-metadata]
-* [https://github.com/wikimedia/htmldumper wikimedia/htmldumper]
-* [https://github.com/wikimedia/hyperswitch wikimedia/hyperswitch]
-* [https://github.com/wikimedia/incubator-superset wikimedia/incubator-superset]
-* [https://github.com/wikimedia/interconnection-wordpress-theme wikimedia/interconnection-wordpress-theme]
-* [https://github.com/wikimedia/java-morelangs wikimedia/java-morelangs]
-* [https://github.com/wikimedia/jmx_exporter wikimedia/jmx_exporter]
-* [https://github.com/wikimedia/jquery.i18n wikimedia/jquery.i18n]
-* [https://github.com/wikimedia/jquery.ime wikimedia/jquery.ime]
-* [https://github.com/wikimedia/jquery.uls wikimedia/jquery.uls]
-* [https://github.com/wikimedia/jquery.webfonts wikimedia/jquery.webfonts]
-* [https://github.com/wikimedia/json-schema wikimedia/json-schema]
-* [https://github.com/wikimedia/json-stable-stringify wikimedia/json-stable-stringify]
-* [https://github.com/wikimedia/jsonschema-compatibility wikimedia/jsonschema-compatibility]
-* [https://github.com/wikimedia/jsonschema-tools wikimedia/jsonschema-tools]
-* [https://github.com/wikimedia/kad wikimedia/kad]
-* [https://github.com/wikimedia/kartodock wikimedia/kartodock]
-* [https://github.com/wikimedia/kartotherian-tilelive-switch wikimedia/kartotherian-tilelive-switch]
-* [https://github.com/wikimedia/kraken-puppet wikimedia/kraken-puppet]
-* [https://github.com/wikimedia/labs-tools-editorinteract wikimedia/labs-tools-editorinteract]
-* [https://github.com/wikimedia/language-data wikimedia/language-data]
-* [https://github.com/wikimedia/less-plugin-clean-css wikimedia/less-plugin-clean-css]
-* [https://github.com/wikimedia/less.php wikimedia/less.php]
-* [https://github.com/wikimedia/limitation wikimedia/limitation]
-* [https://github.com/wikimedia/logstash-report wikimedia/logstash-report]
-* [https://github.com/wikimedia/maps-config wikimedia/maps-config]
-* [https://github.com/wikimedia/mediawiki-api-demos wikimedia/mediawiki-api-demos]
-* [https://github.com/wikimedia/mediawiki-dgraph-skin wikimedia/mediawiki-dgraph-skin]
-* [https://github.com/wikimedia/mediawiki-docker wikimedia/mediawiki-docker]
-* [https://github.com/wikimedia/mediawiki-services-service-runner wikimedia/mediawiki-services-service-runner]
-* [https://github.com/wikimedia/mediawiki-services-service-template-node wikimedia/mediawiki-services-service-template-node]
-* [https://github.com/wikimedia/mediawiki-skins-Wisky wikimedia/mediawiki-skins-Wisky]
-* [https://github.com/wikimedia/mediawiki-title wikimedia/mediawiki-title]
-* [https://github.com/wikimedia/mediawiki-types wikimedia/mediawiki-types]
-* [https://github.com/wikimedia/mw-node-qunit wikimedia/mw-node-qunit]
-* [https://github.com/wikimedia/nlwiki_articlequality wikimedia/nlwiki_articlequality]
-* [https://github.com/wikimedia/node-apn wikimedia/node-apn]
-* [https://github.com/wikimedia/node-htcp-purge wikimedia/node-htcp-purge]
-* [https://github.com/wikimedia/node-rdkafka-prometheus wikimedia/node-rdkafka-prometheus]
-* [https://github.com/wikimedia/node-repo-template wikimedia/node-repo-template]
-* [https://github.com/wikimedia/node-url-get wikimedia/node-url-get]
-* [https://github.com/wikimedia/oauth2-server wikimedia/oauth2-server]
-* [https://github.com/wikimedia/ocean wikimedia/ocean]
-* [https://github.com/wikimedia/operations-debs-contenttranslation-apertium-af-nk wikimedia/operations-debs-contenttranslation-apertium-af-nk]
-* [https://github.com/wikimedia/operations-debs-contenttranslation-apertium-api wikimedia/operations-debs-contenttranslation-apertium-api]
-* [https://github.com/wikimedia/operations-debs-contenttranslation-apertium-hi-ur wikimedia/operations-debs-contenttranslation-apertium-hi-ur]
-* [https://github.com/wikimedia/ores wikimedia/ores]
-* [https://github.com/wikimedia/ores-support-checklist wikimedia/ores-support-checklist]
-* [https://github.com/wikimedia/ores-wmflabs-deploy wikimedia/ores-wmflabs-deploy]
-* [https://github.com/wikimedia/ores_bias_project wikimedia/ores_bias_project]
-* [https://github.com/wikimedia/osm-bright.tm2 wikimedia/osm-bright.tm2]
-* [https://github.com/wikimedia/osm-bright.tm2source wikimedia/osm-bright.tm2source]
-* [https://github.com/wikimedia/parsoid-jsapi wikimedia/parsoid-jsapi]
-* [https://github.com/wikimedia/pcs-html-converter wikimedia/pcs-html-converter]
-* [https://github.com/wikimedia/phoenix wikimedia/phoenix]
-* [https://github.com/wikimedia/pi-playbook wikimedia/pi-playbook]
-* [https://github.com/wikimedia/polyfill-library wikimedia/polyfill-library]
-* [https://github.com/wikimedia/poppy-cli wikimedia/poppy-cli]
-* [https://github.com/wikimedia/popularpages wikimedia/popularpages]
-* [https://github.com/wikimedia/preq wikimedia/preq]
-* [https://github.com/wikimedia/pretty-json wikimedia/pretty-json]
-* [https://github.com/wikimedia/puppet-storm wikimedia/puppet-storm]
-* [https://github.com/wikimedia/pywikibot-externals-six wikimedia/pywikibot-externals-six]
-* [https://github.com/wikimedia/recommendation-missing-sections wikimedia/recommendation-missing-sections]
-* [https://github.com/wikimedia/recommendation-translation-test wikimedia/recommendation-translation-test]
-* [https://github.com/wikimedia/research-api-endpoint-template wikimedia/research-api-endpoint-template]
-* [https://github.com/wikimedia/research-api-interface-template wikimedia/research-api-interface-template]
-* [https://github.com/wikimedia/research-babel-parser wikimedia/research-babel-parser]
-* [https://github.com/wikimedia/research-datasets wikimedia/research-datasets]
-* [https://github.com/wikimedia/research-gapfinder-analytics wikimedia/research-gapfinder-analytics]
-* [https://github.com/wikimedia/research-gapfinder-gadget wikimedia/research-gapfinder-gadget]
-* [https://github.com/wikimedia/research-navigation-vectors wikimedia/research-navigation-vectors]
-* [https://github.com/wikimedia/research-reader-survey-analysis wikimedia/research-reader-survey-analysis]
-* [https://github.com/wikimedia/research-similar-users wikimedia/research-similar-users]
-* [https://github.com/wikimedia/research-translation-recommendation-models wikimedia/research-translation-recommendation-models]
-* [https://github.com/wikimedia/research-translation-recommendation-predictions wikimedia/research-translation-recommendation-predictions]
-* [https://github.com/wikimedia/research-wmf-utils wikimedia/research-wmf-utils]
-* [https://github.com/wikimedia/resource-modules wikimedia/resource-modules]
-* [https://github.com/wikimedia/restbase wikimedia/restbase]
-* [https://github.com/wikimedia/restbase-mod-table-cassandra wikimedia/restbase-mod-table-cassandra]
-* [https://github.com/wikimedia/restbase-mod-table-mysql wikimedia/restbase-mod-table-mysql]
-* [https://github.com/wikimedia/restbase-mod-table-spec wikimedia/restbase-mod-table-spec]
-* [https://github.com/wikimedia/restbase-mod-table-sqlite wikimedia/restbase-mod-table-sqlite]
-* [https://github.com/wikimedia/revscoring wikimedia/revscoring]
-* [https://github.com/wikimedia/riemann-jmx wikimedia/riemann-jmx]
-* [https://github.com/wikimedia/service-runner wikimedia/service-runner]
-* [https://github.com/wikimedia/service-template-node wikimedia/service-template-node]
-* [https://github.com/wikimedia/shop-theme wikimedia/shop-theme]
-* [https://github.com/wikimedia/simplei18n wikimedia/simplei18n]
-* [https://github.com/wikimedia/sqoopy wikimedia/sqoopy]
-* [https://github.com/wikimedia/stylelint-config-wikimedia wikimedia/stylelint-config-wikimedia]
-* [https://github.com/wikimedia/svgtranslate wikimedia/svgtranslate]
-* [https://github.com/wikimedia/swagger-router wikimedia/swagger-router]
-* [https://github.com/wikimedia/takedown-tools wikimedia/takedown-tools]
-* [https://github.com/wikimedia/thank-you-note wikimedia/thank-you-note]
-* [https://github.com/wikimedia/tools-global-search wikimedia/tools-global-search]
-* [https://github.com/wikimedia/twcs wikimedia/twcs]
-* [https://github.com/wikimedia/typescript-types wikimedia/typescript-types]
-* [https://github.com/wikimedia/waxer wikimedia/waxer]
-* [https://github.com/wikimedia/webpagetest wikimedia/webpagetest]
-* [https://github.com/wikimedia/wikibase-changes wikimedia/wikibase-changes]
-* [https://github.com/wikimedia/wikidiff2-docker wikimedia/wikidiff2-docker]
-* [https://github.com/wikimedia/wikilabels wikimedia/wikilabels]
-* [https://github.com/wikimedia/wikilabels-wmflabs-deploy wikimedia/wikilabels-wmflabs-deploy]
-* [https://github.com/wikimedia/wikilearn-edx-theme wikimedia/wikilearn-edx-theme]
-* [https://github.com/wikimedia/wikimedia-android-data-client wikimedia/wikimedia-android-data-client]
-* [https://github.com/wikimedia/wikimedia-logo wikimedia/wikimedia-logo]
-* [https://github.com/wikimedia/wikimedia-ocr wikimedia/wikimedia-ocr]
-* [https://github.com/wikimedia/wikimedia.github.io wikimedia/wikimedia.github.io]
-* [https://github.com/wikimedia/wikimediafoundation-org wikimedia/wikimediafoundation-org]
-* [https://github.com/wikimedia/wikipedia-android-lite wikimedia/wikipedia-android-lite]
-* [https://github.com/wikimedia/wikipedia-ios-Tweaks wikimedia/wikipedia-ios-Tweaks]
-* [https://github.com/wikimedia/wikipedia-ios-codemirror wikimedia/wikipedia-ios-codemirror]
-* [https://github.com/wikimedia/wikipedia-ios-lite wikimedia/wikipedia-ios-lite]
-* [https://github.com/wikimedia/wikipedia-ios-liter wikimedia/wikipedia-ios-liter]
-* [https://github.com/wikimedia/wikipedia-kaios wikimedia/wikipedia-kaios]
-* [https://github.com/wikimedia/wikipedia-preview wikimedia/wikipedia-preview]
-* [https://github.com/wikimedia/wikipediapreview-wordpress wikimedia/wikipediapreview-wordpress]
-* [https://github.com/wikimedia/wikistories-prototype wikimedia/wikistories-prototype]
-* [https://github.com/wikimedia/wikitax wikimedia/wikitax]
-* [https://github.com/wikimedia/wikiwho_api wikimedia/wikiwho_api]
-* [https://github.com/wikimedia/wmfdata-python wikimedia/wmfdata-python]
-* [https://github.com/wikimedia/ws-export wikimedia/ws-export]
+wikimedia/CommonsNotifier
+wikimedia/CopyPatrol
+wikimedia/DarkCosmos
+wikimedia/DeadlinkChecker
+wikimedia/InteractionTimeline
+wikimedia/KafkaSSE
+wikimedia/Leaflet.Sleep
+wikimedia/NYTPhotoViewer
+wikimedia/OKAPI
+wikimedia/SurveyCop
+wikimedia/ToolforgeBundle
+wikimedia/WhoWroteThat
+wikimedia/WikiContrib
+wikimedia/WikidataQueryServiceR
+wikimedia/WikimediaUI-Style-Guide
+wikimedia/abstract-wiki-schemata-generator
+wikimedia/abstract-wikimedia-helpers
+wikimedia/abstract-wikipedia-data-science
+wikimedia/apiclient-wiki
+wikimedia/apigateway-rate-limit-tests
+wikimedia/apps-android-wikipedia-imagerecs
+wikimedia/articlequality
+wikimedia/banana-checker
+wikimedia/banana-i18n
+wikimedia/browserslist-config-wikimedia
+wikimedia/bunyan-syslog-udp
+wikimedia/cassandra
+wikimedia/cert-manager
+wikimedia/cfssl
+wikimedia/commtech-musikbot
+wikimedia/composer-merge-plugin
+wikimedia/content-type
+wikimedia/dClass
+wikimedia/database-reports
+wikimedia/design-playground-ios
+wikimedia/diff-blog
+wikimedia/docker-library-images
+wikimedia/doxygen
+wikimedia/draftquality
+wikimedia/drafttopic
+wikimedia/dump-scheduler-eval
+wikimedia/dumpgrepper
+wikimedia/editquality
+wikimedia/edittypes
+wikimedia/edx-platform
+wikimedia/envoy
+wikimedia/eslint-config-wikimedia
+wikimedia/eslint-docgen
+wikimedia/eslint-plugin-mediawiki
+wikimedia/eslint-plugin-no-jquery
+wikimedia/eventgate
+wikimedia/eventmetrics
+wikimedia/eveskin
+wikimedia/fosdem20webperf
+wikimedia/fosdem21-web-performance-cfp
+wikimedia/git-fat
+wikimedia/grunt-stylelint
+wikimedia/grunt-tyops
+wikimedia/hdfs-tools
+wikimedia/html-metadata
+wikimedia/htmldumper
+wikimedia/hyperswitch
+wikimedia/incubator-superset
+wikimedia/interconnection-wordpress-theme
+wikimedia/java-morelangs
+wikimedia/jmx_exporter
+wikimedia/jquery.i18n
+wikimedia/jquery.ime
+wikimedia/jquery.uls
+wikimedia/jquery.webfonts
+wikimedia/json-schema
+wikimedia/json-stable-stringify
+wikimedia/jsonschema-compatibility
+wikimedia/jsonschema-tools
+wikimedia/kad
+wikimedia/kartodock
+wikimedia/kartotherian-tilelive-switch
+wikimedia/kraken-puppet
+wikimedia/labs-tools-editorinteract
+wikimedia/language-data
+wikimedia/less-plugin-clean-css
+wikimedia/less.php
+wikimedia/limitation
+wikimedia/logstash-report
+wikimedia/maps-config
+wikimedia/mediawiki-api-demos
+wikimedia/mediawiki-dgraph-skin
+wikimedia/mediawiki-docker
+wikimedia/mediawiki-services-service-runner
+wikimedia/mediawiki-services-service-template-node
+wikimedia/mediawiki-skins-Wisky
+wikimedia/mediawiki-skins-cli
+wikimedia/mediawiki-title
+wikimedia/mediawiki-types
+wikimedia/mw-node-qunit
+wikimedia/nlwiki_articlequality
+wikimedia/node-apn
+wikimedia/node-htcp-purge
+wikimedia/node-rdkafka-prometheus
+wikimedia/node-repo-template
+wikimedia/node-url-get
+wikimedia/oauth2-server
+wikimedia/ocean
+wikimedia/operations-debs-contenttranslation-apertium-af-nk
+wikimedia/operations-debs-contenttranslation-apertium-api
+wikimedia/operations-debs-contenttranslation-apertium-hi-ur
+wikimedia/ores
+wikimedia/ores-support-checklist
+wikimedia/ores-wmflabs-deploy
+wikimedia/ores_bias_project
+wikimedia/osm-bright.tm2
+wikimedia/osm-bright.tm2source
+wikimedia/parsoid-jsapi
+wikimedia/pcs-html-converter
+wikimedia/phoenix
+wikimedia/pi-playbook
+wikimedia/pixel
+wikimedia/pixel-seed-data
+wikimedia/polyfill-library
+wikimedia/poppy-cli
+wikimedia/popularpages
+wikimedia/preq
+wikimedia/pretty-json
+wikimedia/puppet-storm
+wikimedia/pywikibot-externals-six
+wikimedia/recommendation-missing-sections
+wikimedia/recommendation-translation-test
+wikimedia/research-api-endpoint-template
+wikimedia/research-api-interface-template
+wikimedia/research-babel-parser
+wikimedia/research-datasets
+wikimedia/research-gapfinder-analytics
+wikimedia/research-gapfinder-gadget
+wikimedia/research-navigation-vectors
+wikimedia/research-reader-survey-analysis
+wikimedia/research-similar-users
+wikimedia/research-translation-recommendation-models
+wikimedia/research-translation-recommendation-predictions
+wikimedia/research-wmf-utils
+wikimedia/resource-modules
+wikimedia/restbase
+wikimedia/restbase-mod-table-cassandra
+wikimedia/restbase-mod-table-mysql
+wikimedia/restbase-mod-table-spec
+wikimedia/restbase-mod-table-sqlite
+wikimedia/revscoring
+wikimedia/riemann-jmx
+wikimedia/service-runner
+wikimedia/service-template-node
+wikimedia/shiro-wordpress-theme
+wikimedia/shop-theme
+wikimedia/simplei18n
+wikimedia/sqoopy
+wikimedia/stylelint-config-wikimedia
+wikimedia/svgtranslate
+wikimedia/swagger-router
+wikimedia/takedown-tools
+wikimedia/thank-you-note
+wikimedia/tools-global-search
+wikimedia/twcs
+wikimedia/typescript-types
+wikimedia/waxer
+wikimedia/webpagetest
+wikimedia/wikibase-changes
+wikimedia/wikidiff2-docker
+wikimedia/wikilabels
+wikimedia/wikilabels-wmflabs-deploy
+wikimedia/wikilearn-edx-theme
+wikimedia/wikimedia-android-data-client
+wikimedia/wikimedia-logo
+wikimedia/wikimedia-ocr
+wikimedia/wikimedia-soundlogo-site
+wikimedia/wikimedia.github.io
+wikimedia/wikimediafoundation-org
+wikimedia/wikipedia-android-lite
+wikimedia/wikipedia-ios-Tweaks
+wikimedia/wikipedia-ios-codemirror
+wikimedia/wikipedia-ios-lite
+wikimedia/wikipedia-ios-liter
+wikimedia/wikipedia-kaios
+wikimedia/wikipedia-preview
+wikimedia/wikipediapreview-wordpress
+wikimedia/wikitax
+wikimedia/wikiwho_api
+wikimedia/wmfdata-python
+wikimedia/ws-export
 
 [0]: <https://github.com/wikimedia/>
