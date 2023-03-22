@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 # Find all active github repos for the wikimedia account
+import os
 import re
 import requests
 import sys
 
-from datetime import datetime,timezone
-
+from datetime import datetime, timezone
+from time import time, sleep
 
 pattern = re.compile(r'<(.*)>')
+
+# Obtain from <https://github.com/settings/tokens>
+#
+# https://docs.github.com/en/rest/overview/authenticating-to-the-rest-api
+GH_AUTH_HEADERS = {"authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"} if os.environ['GITHUB_TOKEN'] else None
 
 
 def active_fork(repo):
     """
     TODO: forks are hard...
     """
-    r = requests.get(repo['url'], auth=())
+    r = requests.get(repo['url'], headers=GH_AUTH_HEADERS)
     r.raise_for_status()
     full_repo = r.json()
 
@@ -44,13 +50,22 @@ def valid_repo(repo):
     return True
 
 
-url = 'https://api.github.com/users/wikimedia/repos'
+url = 'https://api.github.com/users/wikimedia/repos?sort=pushed'
 repos = []
 file_name = 'github-repos-{}'.format(datetime.now(tz=timezone.utc).strftime('%Y-%m-%d'))
 with open(file_name, 'w') as f:
     while url:
-        r = requests.get(url, auth=())
-        r.raise_for_status()
+        r = requests.get(url, headers=GH_AUTH_HEADERS)
+        try:
+            r.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            if e.response.reason == 'rate limit exceeded':
+                raise e
+
+            # Stop
+            url = None
+            continue
+
         f.write('\n'.join([x['full_name'] for x in r.json() if valid_repo(x)]))
         f.write('\n')
 

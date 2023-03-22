@@ -120,24 +120,19 @@ class Phab(object):
             return ret
 
         for repo in results['data']:
-            observe = False
-            mirror_github = False
+            github_name = False
 
             for uri in repo['attachments']['uris']['uris']:
-                # Looking only for uris that are pointing to gerrit
-                # that are also of io type "observe"
+                # Looking only for uris that mirror to github
                 if uri['fields']['disabled']:
                     continue
                 phid = uri['id']
                 name = uri['fields']['uri']['raw']
                 io  = uri['fields']['io']['raw']
                 if name.startswith('https://github.com/wikimedia') and io == 'mirror':
-                    mirror_github = True
                     github_name = name
-                if io == 'observe':
-                    observe = True
 
-            if not observe and mirror_github:
+            if github_name:
                 repo_github_name = clean_github_name(github_name)
                 print(repo_github_name)
                 ret.add(repo_github_name)
@@ -171,7 +166,9 @@ def main():
     p = Phab()
     p.find_uris(github_mirrors)
 
-    final_repos = sorted(github_repos - github_mirrors)
+    gh_only_repos = sorted(github_repos - github_mirrors)
+    final_repos = ["* [https://github.com/%s %s]" % (repo, repo)
+                   for repo in  gh_only_repos]
 
     with open(FINAL_FILE, 'w') as f:
         f.write('\n'.join(PRE).format(DATE, len(final_repos)))
