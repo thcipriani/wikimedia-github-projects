@@ -12,6 +12,7 @@ GITHUB_URL = 'https://github.com/'
 GITHUB_REPOS = 'github-repos-{}'.format(DATE)
 GERRIT_REPOS = 'gerrit-repos-{}'.format(DATE)
 GITHUB_UNIQUES = 'github-repos-not-on-gerrit-{}'.format(DATE)
+SESSION = requests.Session()
 
 def trim_beg(haystack, needle):
     return haystack[len(needle):]
@@ -33,7 +34,7 @@ def canonical(reponame):
     repo name
     """
     github_repo = GITHUB_URL + reponame
-    r = requests.head(github_repo)
+    r = SESSION.head(github_repo)
     print('checking "{}" - {}'.format(github_repo, r.status_code))
     if r.status_code == 301:
         return trim_beg(r.headers['location'], GITHUB_URL)
